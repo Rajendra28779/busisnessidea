@@ -68,6 +68,10 @@ footer {
     font-weight: 600;
 }
 
+.m-1ch{
+    margin-top: -1ch; margin-left: 1ch;
+    text-align: justify;
+}
 /* Responsive Design */
 @media (max-width: 600px) {
     .blog-content {

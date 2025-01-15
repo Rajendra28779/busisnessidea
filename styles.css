@@ -16,30 +16,32 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #F6F6F2;
+    background-color: #d4d410;
 }
 
 header {
     background-color: #388087;
     color: #fff;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
 header .logo h1 {
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .blog-content {
     margin: 25px 100px 25px 100px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #f0f3d4;
     border-radius: 5px;
 }
 
-.blog-content h2 {
+.blog-content h3 {
     color: #333;
-    font-size: 28px;
+    font-size: 23px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
 .blog-image {
@@ -62,10 +64,14 @@ footer {
     margin-top: 20px;
 }
 
+.f-500{
+    font-weight: 600;
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
     .blog-content {
-        margin: 10px;
+        margin: 5px;
         padding: 10px;
     }
     .blog-image {

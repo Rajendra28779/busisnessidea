@@ -1,0 +1,2 @@
+# busisnessidea
+Busisness Idea Blog

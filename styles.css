@@ -65,6 +65,10 @@ body {
     font-size: 23px;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
+    background-color: #BADFE7;
+    padding: 10px;
+    margin-left: -2ch;
+    margin-right: -2ch;
 }
 
 .blog-image {

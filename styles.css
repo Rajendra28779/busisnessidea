@@ -16,19 +16,42 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #d4d410;
+    background-color: #fafad4;
 }
 
-header {
-    background-color: #388087;
-    color: #fff;
-    padding: 5px;
-    text-align: center;
+/* Styling for the header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the title horizontally */
+    position: relative; /* Allows positioning child elements */
+    padding: 10px;
+    background-color: #388087; /* Optional background */
 }
 
-header .logo h1 {
+/* Styling for the logo container */
+.logo-container {
+    position: absolute; /* Keep the logo on the left */
+    left: 10px; /* Adjust left margin */
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the logo image */
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+/* Styling for the header title */
+.header-title {
     font-size: 30px;
+    margin: 0;
+    text-align: center; /* Ensures proper centering */
+    color: #fafad4;
 }
+
+
 
 .blog-content {
     margin: 50px 100px 25px 100px;
